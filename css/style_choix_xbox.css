@@ -12,8 +12,8 @@ body img{
     padding-right: 4px;
     padding-left: 4px;
     border-radius: 15px;
-    width: 440px;
-    height: 400px;
+    width: 670px;
+    height: 600px;
     transition: transform .1s;
 }
 
@@ -38,10 +38,10 @@ body img:hover{
     font-size: 1.2rem;
     text-align: center;
     text-decoration:none;
-    color: #8d8d8d;
+    color: #107C10;
     margin: 2px;
     padding: 8px;
-    border: 2px solid #8d8d8d;
+    border: 2px solid #107C10;
     border-radius: 2px;
     
 }
@@ -54,5 +54,5 @@ body img:hover{
 
 footer{
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
