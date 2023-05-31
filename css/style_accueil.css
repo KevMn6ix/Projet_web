@@ -92,12 +92,34 @@ section{
     border-radius: 2px;
     
 }
+#m2{
+    list-style-type: none;
+    display: flex;
+}
+
+#m2 a{
+    color: #ffffff;
+    background-color: #000354;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #120243;
+    border-radius: 2px;
+    
+}
+
+#m2 a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
 
 #menu a:hover{
     color: #ffffff;
     border: 2px solid #ffffff;
     transition: all 1s;
 }
+
+
 
 footer{
     background-color: #272727}

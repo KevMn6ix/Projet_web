@@ -51,6 +51,26 @@ body img:hover{
     border: 2px solid #ffffff;
     transition: all 1s;
 }
+#m2{
+    list-style-type: none;
+    display: flex;
+}
+
+#m2 a{
+    color: #ffffff;
+    background-color: #fe0016;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #fe0016;
+    border-radius: 2px;
+    
+}
+
+#m2 a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
 
 footer{
     width: 100%;

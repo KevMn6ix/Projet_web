@@ -31,6 +31,28 @@ html{
     
 }
 
+#m2{
+    list-style-type: none;
+    display: flex;
+}
+
+#m2 a{
+    color: #ffffff;
+    background-color: #107C10;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #107C10;
+    border-radius: 2px;
+    
+}
+
+#m2 a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+
 #menu a:hover{
     color: #ffffff;
     border: 2px solid #ffffff;
