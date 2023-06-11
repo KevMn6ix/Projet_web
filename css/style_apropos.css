@@ -4,7 +4,7 @@ html{
     background-color: #272727;
     font-family: fantasy;
 
-    background-image: url("https://images.radio-canada.ca/q_auto,w_1250/v1/ici-info/16x9/jeux-video-retro-nes-snes-sega-genesis-nintendo-n64-playstation-gamecube.jpg");
+    background-image: url('../img/manette_illustration.jpg');
     height: 3%;
 
     background-position: center;
@@ -26,10 +26,10 @@ section p{
 }
 
 section h1{
-    color: #000000;
+    color: #FFFFFF;
     margin-top: 10%;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid #FFFFFF;
     padding: 10px;
 }
 
