@@ -22,15 +22,43 @@ function generer() {
     noteCell.innerHTML = note;
     var commentaireCell = newRow.insertCell(4);
     commentaireCell.innerHTML = commentaire;
-    del();
 }
 
 function del(){
-    // Réinitialisation des valeurs dans le formulaire
   document.getElementById("pseudo").value = "";
   document.getElementById("jv").value = "";
   document.getElementById("console").value = "";
-  document.getElementById("note").value = "";
+  document.getElementById("note").value = "1";
   document.getElementById("comment").value = "";
 }
+
+function verifierFormulaire() {
+  var pseudo = document.getElementById("pseudo").value;
+  var jeu = document.getElementById("jv").value;
+  var console = document.getElementById("console").value;
+  var note = document.getElementById("note").value;
+  var commentaire = document.getElementById("comment").value;
+
+  // Vérification des champs obligatoires
+  if (pseudo === "" || jeu === "" || console === "" || note === "" || commentaire === "") {
+    alert("Veuillez remplir tous les champs !");
+  }else{
+    generer();
+    del();
+  }
+
+
+}
+
+function supprimer() {
+  if (confirm("Confirmez-vous la suppression de tous vos commentaires ?"))
+  {
+    var monTableau = document.getElementById("montab");
+    var nbLignes = monTableau.rows.length;
+
+    for (var i = nbLignes - 1 ; i > 0; i--) {
+      monTableau.deleteRow(i);
+    }
+  } 
+  }
   

@@ -40,7 +40,7 @@
       
         <section class="b2">
             <h1>Donnez votre avis !</h1>
-            <form method="post" name="ajoutPWD" action="#" class="box" id="addPWD" onsubmit="return false">
+            <form method="post" name="ajoutComment" action="#" class="box" id="addComment" onsubmit="return false">
               <fieldset>
                 <label for="text"> Pseudo</label>
                 <input type="text" id="pseudo" name="pseudo">
@@ -49,9 +49,9 @@
                 <label for="symbole">Console</label>
                 <select id ="console">
                     <option value="">--Veuillez choisir la console--</option>
-                    <option value="p">PlayStation</option>
-                    <option value="x">Xbox</option>
-                    <option value="n">Nintendo</option>
+                    <option value="PlayStation">PlayStation</option>
+                    <option value="Xbox">Xbox</option>
+                    <option value="Nintendo">Nintendo</option>
                 </select>
               </fieldset>
               <fieldset>
@@ -67,8 +67,8 @@
                 <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
               </fieldset>
               <fieldset class="bdd">
-                <input class="btn" type="submit" value="Confirmer" onclick="generer()">
-                <input class="btn" type="submit" value="Supprimer" onclick="del()">
+                <input class="btn" type="submit" value="Confirmer" onclick="verifierFormulaire()">
+                <input class="btn" type="submit" value="Supprimer" onclick="supprimer()">
               </fieldset> 
             </form>
             <main class="box">
